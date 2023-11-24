@@ -1,0 +1,67 @@
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+}
+#ejercicio1 li:first-child{
+  color: green;
+}
+#ejercicio1 li:last-child{
+  color: rgb(255, 0, 0);
+}
+#ejercicio2 p:first-child{
+  border-top:solid 1px black;
+  padding: 5px;
+  border-radius: 5px;
+}
+#ejercicio2 p:last-child{
+  border-bottom:solid 1px black;
+  padding: 5px;
+  border-radius: 5px;
+}
+#ejercicio3 tr:nth-child(3n){
+  color: red;
+}
+#ejercicio4 #lista1 li:nth-child(even){
+  text-decoration: underline;
+}
+#ejercicio4 #lista1 li:nth-child(odd){
+  text-decoration: line-through;
+
+}
+#ejercicio4#lista2 li:nth-child(4n){
+  color: green;
+}
+
+#ejercicio5 h2:nth-of-type(odd){
+  text-decoration: underline;
+}
+
+#ejercicio6 strong:nth-of-type(1){
+  background-color:blue;
+  color: white;
+}
+
+#ejercicio7 li::first-letter{
+  text-decoration: underline;
+}
+
+#ejercicio8 strong::before{
+  content: "¡";
+}
+
+#ejercicio8 strong::after{
+  content: "!";
+}
+
+#ejercicio9 p:before{
+  content: "-";
+}
